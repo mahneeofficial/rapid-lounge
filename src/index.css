@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Make Date & Time Picker Icons Visible on Dark Backgrounds */
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(0.8) sepia(100%) saturate(1000%) hue-rotate(10deg);
+  cursor: pointer;
+}
